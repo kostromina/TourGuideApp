@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.tourguideapp.MainActivity">
+
+    <!-- City Sights category -->
+    <LinearLayout
+        android:id="@+id/category_city_sights"
+        style="@style/CategoryStyle"
+        android:background="@color/category">
+
+        <ImageView
+            style="@style/CategoryImageStyle"
+            android:src="@drawable/ic_city_sights" />
+
+        <TextView
+            style="@style/CategoryTextStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/city_sights" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category_museums"
+        style="@style/CategoryStyle"
+        android:background="@color/category">
+
+        <ImageView
+            style="@style/CategoryImageStyle"
+            android:src="@drawable/ic_museums" />
+
+        <TextView
+            style="@style/CategoryTextStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/museums" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/category_outdoors"
+        style="@style/CategoryStyle"
+        android:background="@color/category">
+
+        <ImageView
+            style="@style/CategoryImageStyle"
+            android:src="@drawable/ic_outdoors" />
+
+        <TextView
+            style="@style/CategoryTextStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/outdoors" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/CategoryStyle"
+        android:background="@color/category"
+        android:id="@+id/category_food">
+
+        <ImageView
+            style="@style/CategoryImageStyle"
+            android:src="@drawable/ic_by_train" />
+
+        <TextView
+            style="@style/CategoryTextStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/food" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+

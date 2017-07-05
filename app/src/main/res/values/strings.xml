@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+    <string name="city_sights">City Sights</string>
+    <string name="museums">Museums</string>
+    <string name="outdoors">Outdoors</string>
+    <string name="food">Food</string>
+</resources>

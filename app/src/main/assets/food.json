@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Mc Donnalds",
+    "description": "Blah blah",
+    "id": "mc_donalds",
+    "location": {
+      "lon": 0.4343,
+      "lat": 1.4343
+    }
+  },
+  {
+    "name": "KFC",
+    "description": "Blah blah",
+    "id": "kfc",
+    "location": {
+      "lon": 0.4343,
+      "lat": 1.4343
+    }
+  }
+]
